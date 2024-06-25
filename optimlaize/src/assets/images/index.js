@@ -1,0 +1,5 @@
+export {default as consulting } from './consulting.jpg'
+export {default as aboutus } from './hero-aboutus.jpg'
+export {default as caseHero } from './hero-case-studies.jpg'
+export {default as home } from './hero-home.jpg'
+export {default as portfolio } from './portfolio.jpg'

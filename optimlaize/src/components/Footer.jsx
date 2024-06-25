@@ -3,10 +3,10 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <footer class="py-5 bg-dark ">
-        <div class="container">
-          <p class="m-0 text-center text-white">
-            Copyright @2024 &copy; Optimlaize 
+      <footer className="h-[200px] bg-black py-20">
+        <div className="container">
+          <p className="m-10 text-center text-white">
+            Copyright Optimlaize&copy; 2024
           </p>
         </div>
       </footer>

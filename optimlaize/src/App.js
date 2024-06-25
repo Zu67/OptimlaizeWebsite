@@ -4,8 +4,8 @@ import {
   Footer,
   Home,
   AboutUs,
-  Service,
-  CaseStudies,
+  CaseStudyList,
+  CaseStudyDetail,
   Demo,
 } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,9 +18,9 @@ function App() {
         <Navigation/>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/service" element={<Service />} />
             <Route path="/demo" element={<Demo />} />
-            <Route path="/case-studies" element={<CaseStudies />} />
+            <Route path="/case-study" element={<CaseStudyList />} />
+            <Route path="/case-study/:id" element={<CaseStudyDetail />} />
             <Route path="/about-us" element={<AboutUs />} />
           </Routes>
           <Footer/>

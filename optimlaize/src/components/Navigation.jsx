@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {hamburger} from "../assets/icons"
+
 
 function Navigation() {
   return (
@@ -10,25 +12,25 @@ function Navigation() {
             Optimlaize
           </NavLink>
           <div>
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto max-lg:hidden">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
-                  Home
+                  Features
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/service">
-                  Service
+                  Features
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink className="nav-link" to="/demo">
                   Demo
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/case-studies">
+                <NavLink className="nav-link" to="/case-study">
                   Case Studies
                 </NavLink>
               </li>
@@ -38,6 +40,14 @@ function Navigation() {
                 </NavLink>
               </li>
             </ul>
+          </div>
+          <div>
+            <img className="hidden max-lg:block"
+              src={hamburger}
+              alt="Hamburger"
+              width={25}
+              height={25}
+            />
           </div>
         </div>
       </nav>
