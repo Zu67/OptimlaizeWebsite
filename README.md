@@ -1,6 +1,6 @@
 # Optimlaize
 
-Zu67 created this repository on 2024-06-11. Isha Zhang (redacted@example.com) authored the React app commits on 2024-06-13 ("initialized react & node structure"), 2024-06-14 ("finished homepage, footer, navigation"), and 2024-06-25 ("Updated skeleton"). The page copy below is from those files in `optimlaize/src`.
+Zu67 created this repository on 2024-06-11. Isha Zhang authored the React app commits on 2024-06-13 ("initialized react & node structure"), 2024-06-14 ("finished homepage, footer, navigation"), and 2024-06-25 ("Updated skeleton"). The page copy below is from those files in `optimlaize/src`.
 
 Navigation (`optimlaize/src/components/Navigation.jsx`) links Features to `/`, Demo to `/demo`, Case Studies to `/case-study`, and About Us to `/about-us`. The brand is Optimlaize. The footer says "Copyright Optimlaize © 2024".
 
