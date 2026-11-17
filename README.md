@@ -35,7 +35,7 @@ The list page hero title is "Case Studies" and the description is "Empowering yo
 5. Automating Options Trading and Reporting for a Hedge Fund — the client line says John Smith, an independent options trader
 6. Optimizing Backtesting Efficiency for AI-Driven Options Trading Strategy — QuantAI
 
-A missing id shows "Case study not found". A detail page renders that entry's client, introduction, project description, technologies, team, challenges, solutions, results, lessons, conclusion, and appendices.
+The ids are 1 through 6. The detail page compares the URL to `id.toString()`, so `/case-study/1` matches and `/case-study/01` does not. A missing id shows "Case study not found". A detail page renders that entry's client, introduction, project description, technologies, team, challenges, solutions, results, lessons, conclusion, and appendices. Every technology item is labeled "Technologies Used:" and every team member is labeled "Team Composition:", so those labels repeat once per item.
 
 ## About Us
 
