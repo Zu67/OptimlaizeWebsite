@@ -28,12 +28,12 @@ The contact block says "Interested about our products?", "Contact Us", and lists
 
 The list page hero title is "Case Studies" and the description is "Empowering your Investments". Cards link to `/case-study/:id` and show the title and introduction stored in `optimlaize/src/constants/CaseStudyConstants.js`:
 
-1. Enhancing Data Integrity for Financial Reporting at FinDataCorp
-2. Enhancing Predictive Market Analytics with AI-Based Tonal Analysis
-3. Transforming Data Processing for Fintech Financial Reporting
-4. Streamlining Entry Execution for a High Net Worth Day Trader
-5. Automating Options Trading and Reporting for a Hedge Fund
-6. Optimizing Backtesting Efficiency for AI-Driven Options Trading Strategy
+1. Enhancing Data Integrity for Financial Reporting at FinDataCorp — FinDataCorp, a specialist in third-party financial reports for brokerages
+2. Enhancing Predictive Market Analytics with AI-Based Tonal Analysis — TonalTech. Its lesson headings are copied from the first study: "Importance of Data Quality in Financial Reporting", "Automation in Quality Checks", and "Collaboration with Data Providers". The testimonial starts without an opening quotation mark.
+3. Transforming Data Processing for Fintech Financial Reporting — FinDataCorp again, this time "a provider of third-party financial reports to brokerages"
+4. Streamlining Entry Execution for a High Net Worth Day Trader — John Doe
+5. Automating Options Trading and Reporting for a Hedge Fund — the client line says John Smith, an independent options trader
+6. Optimizing Backtesting Efficiency for AI-Driven Options Trading Strategy — QuantAI
 
 A missing id shows "Case study not found". A detail page renders that entry's client, introduction, project description, technologies, team, challenges, solutions, results, lessons, conclusion, and appendices.
 
