@@ -2,7 +2,7 @@
 
 Zu67 created this repository on 2024-06-11. Isha Zhang authored the React app commits on 2024-06-13 ("initialized react & node structure"), 2024-06-14 ("finished homepage, footer, navigation"), and 2024-06-25 ("Updated skeleton"). The page copy below is from those files in `optimlaize/src`.
 
-Navigation (`optimlaize/src/components/Navigation.jsx`) links Features to `/`, Demo to `/demo`, Case Studies to `/case-study`, and About Us to `/about-us`. The Features link always includes the screen-reader text "(current)", including on the other pages. A second Features link to `/service` is commented out, and `optimlaize/src/App.js` has no `/service` route, so that address shows the navigation and the footer with no page. Below the `lg` breakpoint the links are hidden. The hamburger image is shown there and has no click handler. The brand is Optimlaize. The footer text is "Copyright Optimlaize© 2024", with no space before the copyright mark.
+Navigation (`optimlaize/src/components/Navigation.jsx`) links Features to `/`, Demo to `/demo`, Case Studies to `/case-study`, and About Us to `/about-us`. The Features link always includes the screen-reader text "(current)", including on the other pages. A second Features link to `/service` is commented out, and `optimlaize/src/App.js` has no `/service` route, so that address shows the navigation and the footer with no page. Below the `lg` breakpoint the links are hidden. The hamburger image is shown there and has no click handler. The brand is Optimlaize. The document title is "Optimlaize - Manage your money like it’s yours". The meta tag's name is "Optimalize - Manage your money like it’s yours", with that spelling, and its content is "Revolutionize the quantitative experience by leveraging modern technology". It is not `name="description"`. Bootstrap 5.2.2 is loaded from jsDelivr, and the only webfont link is Open Sans. The Tailwind config adds no fonts, colors, shadows, or breakpoints, so `font-palanquin`, `font-montserrat`, `text-slate-gray`, `bg-grey`, and `hover:shadow-2lg` are not generated. There is no catch-all route, so every unmatched path shows the navigation and the footer with no page. The footer text is "Copyright Optimlaize© 2024", with no space before the copyright mark.
 
 ## Home
 
@@ -10,9 +10,9 @@ The hero title is Optimlaize and the hero text is "Empowering your Investments".
 
 Portfolio Visualizer — "Revolutionize the quantitative experience by leveraging modern technology". The section lists:
 
-- Investment Tracking — "Track performance beyond return percentage"
-- Net Worth — "Understand exactly what’s in your portfolio"
-- Reports — "Get your personal reports ready"
+- 01 — Investment Tracking — "Track performance beyond return percentage"
+- 02 — Net Worth — "Understand exactly what’s in your portfolio"
+- 03 — Reports — "Get your personal reports ready"
 
 A block asks "Not sure about your risk level?" and links "Take a simple quiz now" to `#`.
 
