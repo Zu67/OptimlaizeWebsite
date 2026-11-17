@@ -2,7 +2,7 @@
 
 Zu67 created this repository on 2024-06-11. Isha Zhang authored the React app commits on 2024-06-13 ("initialized react & node structure"), 2024-06-14 ("finished homepage, footer, navigation"), and 2024-06-25 ("Updated skeleton"). The page copy below is from those files in `optimlaize/src`.
 
-Navigation (`optimlaize/src/components/Navigation.jsx`) links Features to `/`, Demo to `/demo`, Case Studies to `/case-study`, and About Us to `/about-us`. The brand is Optimlaize. The footer says "Copyright Optimlaize © 2024".
+Navigation (`optimlaize/src/components/Navigation.jsx`) links Features to `/`, Demo to `/demo`, Case Studies to `/case-study`, and About Us to `/about-us`. The Features link always includes the screen-reader text "(current)", including on the other pages. A second Features link to `/service` is commented out, and `optimlaize/src/App.js` has no `/service` route, so that address shows the navigation and the footer with no page. Below the `lg` breakpoint the links are hidden. The hamburger image is shown there and has no click handler. The brand is Optimlaize. The footer text is "Copyright Optimlaize© 2024", with no space before the copyright mark.
 
 ## Home
 
@@ -16,7 +16,7 @@ Portfolio Visualizer — "Revolutionize the quantitative experience by leveragin
 
 A block asks "Not sure about your risk level?" and links "Take a simple quiz now" to `#`.
 
-Consulting Service — the card text is "A world of thought-provoking articles", "Case studies that celebrate architecture", and "Exclusive access to design insights". Beside a slideshow of the case-study titles and introductions, the page says "Contact us for a Quote" and "Have us build your algorithmic trading ideas, trading systems, or software."
+Consulting Service — the card is one paragraph: "A world of thought-provoking articles", a newline, "Case studies that celebrate architecture", a newline, and "Exclusive access to design insights". The paragraph does not preserve those newlines, so they collapse to spaces. The image element in `optimlaize/src/cards/ServiceCard.jsx` is commented out. Home passes `imgURl`, while the component parameter is `imgURL`. The classes `flax-wrap`, `itmes-center`, and `space-20` are not Tailwind classes. Beside that card, a slideshow starts on the first case study and shows each study's title and introduction. It moves only when the ❮ or ❯ button is clicked, and it wraps from the last study to the first. The page also says "Contact us for a Quote" and "Have us build your algorithmic trading ideas, trading systems, or software."
 
 The contact block says "Interested about our products?", "Contact Us", and lists alpha@optimlaize.com.
 
