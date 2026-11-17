@@ -8,7 +8,7 @@ Navigation (`optimlaize/src/components/Navigation.jsx`) links Features to `/`, D
 
 ## Home
 
-The hero title is Optimlaize and the hero text is "Empowering your Investments". The hero is `h-screen`, with the image as a cover centered behind a black overlay at opacity 50. The title and description sit in a box that is 1000px wide. The title is `text-4xl` and becomes `text-6xl` at the `md` breakpoint. The description is `text-lg` and becomes `text-2xl` at that same breakpoint. The same hero component is used on the case-study list and on About Us, so those pages also use the 1000px box and the black overlay.
+The hero title is Optimlaize and the hero text is "Empowering your Investments". The hero is `relative w-full h-screen bg-cover bg-center text-white text-center`, and the image is a CSS background. The black overlay is a separate `absolute inset-0 bg-black opacity-50` div. The title and description sit in a `relative z-10` box that is `w-[1000px]`, with no max width. The title is `text-4xl` and becomes `text-6xl` at the `md` breakpoint. The description is `text-lg` and becomes `text-2xl` at that same breakpoint. The same hero component is used on the case-study list and on About Us, so those pages also use the 1000px box and the black overlay.
 
 Portfolio Visualizer — "Revolutionize the quantitative experience by leveraging modern technology". The section lists:
 
@@ -30,7 +30,7 @@ The contact block says "Interested about our products?", "Contact Us", and lists
 
 ## Case Studies
 
-The list page hero title is "Case Studies" and the description is "Empowering your Investments". Cards link to `/case-study/:id` and show the title and introduction stored in `optimlaize/src/constants/CaseStudyConstants.js`. Each card is 500px wide. The link's React key is the array index, not the study id.
+The list page hero title is "Case Studies" and the description is "Empowering your Investments". Cards link to `/case-study/:id` and show the title and introduction stored in `optimlaize/src/constants/CaseStudyConstants.js`. Each card is `w-[500px] rounded-[20px] shadow hover:shadow-lg hover:bg-blue-50 m-20 px-10 py-16`. The title is `text-3xl font-bold`. The introduction is `break-words text-lg`. The list section is `flex justify-center flex-wrap`. The link's React key is the array index, not the study id.
 
 1. Enhancing Data Integrity for Financial Reporting at FinDataCorp — FinDataCorp, a specialist in third-party financial reports for brokerages
 2. Enhancing Predictive Market Analytics with AI-Based Tonal Analysis — TonalTech. Its lesson headings are copied from the first study: "Importance of Data Quality in Financial Reporting", "Automation in Quality Checks", and "Collaboration with Data Providers". The descriptions under those headings are not copied. They are "The importance of thorough and transparent validation processes in gaining stakeholder trust for new AI-driven financial technologies.", "The challenge of integrating experimental AI models into existing financial systems and the necessity of flexible, adaptable system design.", and "The value of clear, data-driven communication in white papers and presentations to effectively convey complex technical information to non-specialist audiences." The testimonial starts without an opening quotation mark. Its four solutions are "Development of a White Paper", "Signal Processing Infrastructure", "Backtesting and Trading System", and "Integration with Existing Systems".
